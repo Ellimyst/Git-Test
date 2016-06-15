@@ -1,8 +1,20 @@
+import java.util.stream.DoubleStream;
 
 public class Tree {
 
-	public Tree() {
-		// TODO Auto-generated constructor stub
+	private int height;
+	private int modifier, base;
+	
+	
+	
+	public Tree(int base, int modifier) {
+		base = this.base;
+		modifier = this.modifier;
+		height = base + Runner.rand.nextInt((2*modifier)+1)-modifier;
 	}
-
+	
+	public String toString()
+	{
+		return height+"";
+	}
 }
