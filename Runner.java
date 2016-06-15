@@ -11,8 +11,10 @@ public class Runner {
 		
 		for(int i = 0; i < 10; i++)
 		{
-			trees.add(new Tree(10,3));
+			trees.add(new Tree(10,4));
 		}
+		
+		System.out.println(trees);
 	}
 
 }

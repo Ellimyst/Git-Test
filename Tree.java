@@ -7,9 +7,9 @@ public class Tree {
 	
 	
 	
-	public Tree(int base, int modifier) {
-		base = this.base;
-		modifier = this.modifier;
+	public Tree(int b, int m) {
+		base = b;
+		modifier = m;
 		height = base + Runner.rand.nextInt((2*modifier)+1)-modifier;
 	}
 	
