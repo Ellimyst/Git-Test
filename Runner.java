@@ -9,7 +9,10 @@ public class Runner {
 		
 		ArrayList<Tree> trees = new ArrayList<Tree>();
 		
-		
+		for(int i = 0; i < 10; i++)
+		{
+			trees.add(new Tree(10,3));
+		}
 	}
 
 }
