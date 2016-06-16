@@ -1,5 +1,3 @@
-import java.util.stream.DoubleStream;
-
 public class Tree {
 
 	private int height;
